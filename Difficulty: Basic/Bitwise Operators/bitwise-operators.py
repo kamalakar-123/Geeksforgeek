@@ -1,0 +1,12 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+# code here
+d = a ^ a
+e = c ^ b
+f = a & b
+g = ~ e
+
+
+print(d, e, f, g)
