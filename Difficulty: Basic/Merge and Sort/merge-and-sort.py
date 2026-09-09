@@ -1,0 +1,3 @@
+class Solution:
+    def mergeNsort(self, arr1, arr2):
+        return sorted(set(arr1 + arr2))
